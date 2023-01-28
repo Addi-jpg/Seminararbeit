@@ -8,10 +8,10 @@ try:
     #Verbindung zur Datenbank
     connection = psycopg2.connect(
     host="localhost",
-    database="Seminararbeit",
-    user="postgres",
-    password="admin",
-    port=5432)
+    database="",
+    user="",
+    password="",
+    port=)
 
     #Erzeuge Cursor um SQL-Befehle auszuführen
     cursor = connection.cursor()
